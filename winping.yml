@@ -1,5 +1,5 @@
 ---
 - hosts:  all
   tasks:
-      - name: whoiam info
-        win_whoiam;
+      - name: ping
+        win_ping:
