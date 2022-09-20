@@ -1,5 +1,5 @@
 ---
 - hosts:  all
   tasks:
-      - name: whoiam info
+      - name: Get whoiam information
         win_whoiam:
